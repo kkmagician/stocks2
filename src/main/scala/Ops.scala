@@ -1,8 +1,7 @@
 import cats.implicits._
 import cats.data.EitherT
-import cats.effect.{Concurrent, IO, Resource, Sync, Timer}
+import cats.effect.{IO, Resource}
 
-import scala.concurrent.duration.FiniteDuration
 import scala.io.Source
 import scala.math.pow
 
